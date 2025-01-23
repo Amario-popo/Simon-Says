@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Simon says!</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <p id="result" class="hide">Demo Message</p>
+        </div>
+
+        <div class="wrapper">
+            <div class="simon">
+                <div onclick="colorClicked(event.currentTarget)" class="color1 color-part"></div>
+                <div onmouseover="" onclick="colorClicked(event.currentTarget)" class="color2 color-part"></div>
+                <div onmouseover="" onclick="colorClicked(event.currentTarget)" class="color3 color-part"></div>
+                <div onmouseover="" onclick="colorClicked(event.currentTarget)" class="color4 color-part"></div>
+                <div><p id="count"></p></div>
+            </div>
+        </div>
+
+        <script src="./js/main.js"></script>
+
+    </body>
+
+</html>
